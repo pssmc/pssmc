@@ -2,13 +2,13 @@
 3
 1 6 2
 2
-1 1 1 1 1 0 0 0 0
-5
-cs0 cs1 enter0 enter1 tracetype
-0 0 0 
-0 0 0 0 0
-4
+1 1 1 0 0 
 7
-0.75 0.25 0.125 0 0.25 0.125 0
+cs0 cs1 try0 try1 enter0 enter1 last
+0 0 0 
+0 0 0 0 0 0 0
+4
 3
-ltl e1{[]mutex}\nltl e2{[]((try0 == 1) -> <>(cs0 == 1))}\n ltl e3{[]((try1 == 1) -> <>(cs1 == 1))}
+0.33 0.33 0.33
+3
+ltl e1{[](cs0 + cs1 <= 1)} ltl e2{[]((try0 == 1) -> <>(cs0 == 1))}  ltl e3{[]((try1 == 1) -> <>(cs1 == 1))}
