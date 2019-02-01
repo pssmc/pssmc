@@ -1,0 +1,13 @@
+3
+3
+1 8 4
+3
+1 1 1 1 1
+9
+try0 try1 try2 eating0 eating1 eating2 eat0 eat1 eat2
+0 0 0 0 
+
+0 0 0 0 0 0 0 0 0
+2
+
+0.5
